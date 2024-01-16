@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-16T11:58:11 IST" name="Default suite" finished-at="2024-01-16T11:58:13 IST" duration-ms="2391">
+    <groups>
+    </groups>
+    <test started-at="2024-01-16T11:58:11 IST" name="Default test" finished-at="2024-01-16T11:58:13 IST" duration-ms="2391">
+      <class name="com.test.Dashboard_apis.Testing">
+        <test-method signature="subject()[pri:1, instance:com.test.Dashboard_apis.Testing@33990a0c]" started-at="2024-01-16T11:58:11 IST" name="subject" finished-at="2024-01-16T11:58:12 IST" duration-ms="1409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subject -->
+        <test-method signature="OrganExtraction()[pri:2, instance:com.test.Dashboard_apis.Testing@33990a0c]" started-at="2024-01-16T11:58:12 IST" name="OrganExtraction" finished-at="2024-01-16T11:58:12 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrganExtraction -->
+        <test-method signature="Cryoprotection()[pri:3, instance:com.test.Dashboard_apis.Testing@33990a0c]" started-at="2024-01-16T11:58:12 IST" name="Cryoprotection" finished-at="2024-01-16T11:58:12 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cryoprotection -->
+        <test-method signature="CryoBlock()[pri:4, instance:com.test.Dashboard_apis.Testing@33990a0c]" started-at="2024-01-16T11:58:12 IST" name="CryoBlock" finished-at="2024-01-16T11:58:13 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CryoBlock -->
+        <test-method signature="MRI()[pri:5, instance:com.test.Dashboard_apis.Testing@33990a0c]" started-at="2024-01-16T11:58:13 IST" name="MRI" finished-at="2024-01-16T11:58:13 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MRI -->
+        <test-method signature="ImageQC()[pri:6, instance:com.test.Dashboard_apis.Testing@33990a0c]" started-at="2024-01-16T11:58:13 IST" name="ImageQC" finished-at="2024-01-16T11:58:13 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ImageQC -->
+        <test-method signature="Registration()[pri:7, instance:com.test.Dashboard_apis.Testing@33990a0c]" started-at="2024-01-16T11:58:13 IST" name="Registration" finished-at="2024-01-16T11:58:13 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method signature="AtlasCreation()[pri:8, instance:com.test.Dashboard_apis.Testing@33990a0c]" started-at="2024-01-16T11:58:13 IST" name="AtlasCreation" finished-at="2024-01-16T11:58:13 IST" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AtlasCreation -->
+      </class> <!-- com.test.Dashboard_apis.Testing -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
