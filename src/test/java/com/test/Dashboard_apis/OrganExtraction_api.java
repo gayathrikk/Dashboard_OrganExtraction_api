@@ -18,7 +18,7 @@ public class OrganExtraction_api {
         
         System.out.println("API request to the Organ Extraction passed. Status code: " + statusCode1);
 	}
-@Test(priority=1)
+@Test(priority=2)
     public void api_Subject_IN()
     
        {
@@ -41,7 +41,7 @@ public class OrganExtraction_api {
            Assert.assertEquals(statusCode1, 200, "API request to the Dashboard API request to the Dashboard OrganExtraction_SubjectsIN failed");
            
        }
-	@Test(priority=2)
+	@Test(priority=3)
 	public void api_MRI_TO_DO() {
 		 Response response1 = RestAssured
                  .given()
@@ -62,7 +62,7 @@ public class OrganExtraction_api {
          Assert.assertEquals(statusCode2, 200, "API request to the Dashboard API request to the Dashboard OrganExtraction_MRI_TO_DO failed");
          
      }
-	@Test(priority=3)
+	@Test(priority=4)
 	public void api_MRI_Done() {
 		 Response response1 = RestAssured
                 .given()
@@ -84,7 +84,7 @@ public class OrganExtraction_api {
         
     }
 		
-	@Test(priority=4)
+	@Test(priority=5)
 	public void api_Perfusion_Done() {
 		 Response response1 = RestAssured
                  .given()
@@ -105,7 +105,7 @@ public class OrganExtraction_api {
          Assert.assertEquals(statusCode2, 200, "API request to the Dashboard OrganExtraction_Perfusion_Done failed");
          
      }
-	@Test(priority=5)
+	@Test(priority=6)
 	public void api_Rejected() {
 		 Response response1 = RestAssured
                  .given()
@@ -126,7 +126,7 @@ public class OrganExtraction_api {
          Assert.assertEquals(statusCode2, 200, "API request to the Dashboard OrganExtraction_Rejected failed");
          
      }
-	@Test(priority=6)
+	@Test(priority=7)
 	public void api_Organ_Out() {
 		 Response response1 = RestAssured
                  .given()
@@ -147,7 +147,7 @@ public class OrganExtraction_api {
          Assert.assertEquals(statusCode2, 200, "API request to the Dashboard OrganExtraction_Organ_Out failed");
          
      }
-	@Test(priority=7)
+	@Test(priority=8)
 	public void Subject_completed() {
 		 Response response1 = RestAssured
                  .given()
