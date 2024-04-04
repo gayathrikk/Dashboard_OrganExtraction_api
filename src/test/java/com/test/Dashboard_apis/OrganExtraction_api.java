@@ -169,6 +169,3 @@ public class OrganExtraction_api {
          
      }
 	}
-	
-
-}
